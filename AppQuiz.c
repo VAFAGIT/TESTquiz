@@ -4,7 +4,7 @@ int main ()
 {
 	
 	int chx1, chx2, chx3, chx4, chx5;
-	int SCORE ;
+	int SCORE = 0;
 	
 	printf("\t \t ******* BIENVENU ******* \n");
 	printf("\t \t \t \n");
@@ -24,8 +24,8 @@ int main ()
 	               else {
 	             	Not-- ;
 	             	printf("false");
-	             	Not == 0;
-					   if ( SCORE == 0) return  0 ;
+	             	
+					   if ( SCORE <= 0) return  0 ;
                    	}
         
    
@@ -47,8 +47,8 @@ int main ()
 	               else {
 	             	Not-- ;
 	             	printf("false \n");
-	             		Not == 0;
-					  if ( SCORE == 0) return  0 ;
+	             		
+					  if ( SCORE <= 0) return  0 ;
                    	}
    SCORE = Not ;
    
@@ -67,8 +67,8 @@ int main ()
 	               else {
 	             	Not-- ;
 	             	printf("false \n");
-	             		Not == 0;
-				 if ( SCORE == 0) return  0 ;
+	             	
+				 if ( SCORE <= 0) return  0 ;
                    	}
    
 	SCORE = Not ;
@@ -87,8 +87,8 @@ int main ()
 	               else {
 	             	Not-- ;
 	             	printf("false \n");
-	             		Not == 0;
-				 if ( SCORE == 0) return  0 ;
+	             	
+				 if ( SCORE <= 0) return  0 ;
                    	}
    
 	SCORE = Not ;
