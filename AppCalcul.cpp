@@ -80,7 +80,7 @@ int main(){
 			printf("RLT = 1") ;
 		}
 		else if(a1||b1 == 0) {
-			printf("RLT = 1");
+			printf("RLT = 0");
 		}
 	
 		else{
