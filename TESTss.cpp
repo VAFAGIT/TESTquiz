@@ -14,7 +14,7 @@
 	char id; 
 	} EL;
 	
-	void vote1(electeur EL[], candidat PL[], int nb1, int nb2) {
+/*	void vote1(electeur EL[], candidat PL[], int nb1, int nb2) {
 		int min, max;
 		double cal;
 		candidat PL1[nb1];
@@ -221,7 +221,7 @@ int main(){
 	
 	
 	
-	
+	*/
 	
 	
 	
